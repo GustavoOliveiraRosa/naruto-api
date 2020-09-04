@@ -156,6 +156,15 @@ app.get('/kibainuzuka', function (req, res) {
 
 });
 
+app.get('/akamaru', function (req, res) {
+
+  var personagem =  personagens.filter(function(person) {
+    return person.id == "8";
+  });
+
+  res.send(JSON.stringify(personagem));
+
+});
 
 
 

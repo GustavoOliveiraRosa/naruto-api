@@ -14,6 +14,10 @@ O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de
 - /sasukeuchiha 04/09/2020 [x]
 - /sakuraharuno 04/09/2020 [x]
 - /kakashihatake 04/09/2020 [x]
+- /saiyamanaka 04/09/2020 [x]
+- /yamato 04/09/2020 [x]
+- /kibainuzuka 04/09/2020 [x]
+- /akamaru 04/09/2020 [x]
 
 
 

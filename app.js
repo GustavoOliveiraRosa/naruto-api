@@ -106,6 +106,16 @@ app.get('/sasukeuchiha', function (req, res) {
 
 });
 
+app.get('/sakuraharuno', function (req, res) {
+
+  var personagem =  personagens.filter(function(person) {
+    return person.id == "3";
+  });
+
+  res.send(JSON.stringify(personagem));
+
+});
+
 
 app.listen(8001, function () {
   console.log('Servidor rodando na porta 8000.');

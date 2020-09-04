@@ -86,7 +86,7 @@ app.get('/geral', function (req, res) {
 
 });
 
-app.get('/naruto', function (req, res) {
+app.get('/narutouzumaki', function (req, res) {
 
   var personagem =  personagens.filter(function(person) {
     return person.id == "1";

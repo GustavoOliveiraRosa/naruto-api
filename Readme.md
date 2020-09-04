@@ -18,6 +18,7 @@ O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de
 - /yamato 04/09/2020 [x]
 - /kibainuzuka 04/09/2020 [x]
 - /akamaru 04/09/2020 [x]
+- /hinatahyuga 04/09/2020 [x]
 
 
 

@@ -176,6 +176,17 @@ app.get('/hinatahyuga', function (req, res) {
 
 });
 
+app.get('/shinoaburame', function (req, res) {
+
+  var personagem =  personagens.filter(function(person) {
+    return person.id == "10";
+  });
+
+  res.send(JSON.stringify(personagem));
+
+});
+
+
 
 app.listen(8001, function () {
   console.log('Servidor rodando na porta 8000.');

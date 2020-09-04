@@ -32,48 +32,7 @@ var personagens = [
   {id:"7", name: "Kiba Inuzuka", descricao: "É um membro do time 8 caracterizado por uma série de características caninas tais como ser muito protetor de seus companheiros e ter sentidos extremamente aguçados, como o olfato. O que mais evidencia sua ligação com os cães é a constante presença de seu cachorro ninja (忍犬 ninken?), Akamaru. Kiba é extremamente fiel a seu cão, sendo relutante em abandoná-lo e até colocando a si mesmo em perigo para protegê-lo.[36] Em troca da devoção de Kiba, Akamaru luta junto dele; ele usa seus sentidos aguçados para dar vantagem a Kiba e ajuda-o no trabalho em equipe com diversos ataques físicos. Devido a Akamaru ser naturalmente melhor equipado para o combate, Kiba normalmente modifica suas próprias habilidades no início de uma batalha, fazendo suas garras crescerem e passando a andar sob seus quatro membros para aumentar a sua velocidade.[37] Ele também pode aumentar drasticamente o seu olfato, e na segunda metade da série, ele pode usá-lo para detectar coisas que os cães não conseguem.[38] O dublador do personagem na versão original do anime é Kōsuke Toriumi e na brasileira é Fábio Lucindo.", geral:"true"},
   {id:"8", name: "Akamaru", descricao: "Não disponivel ainda", geral:"true"},
   {id:"9", name: "Hinata Hyūga", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"10", name: "Shino Aburame", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"11", name: "Kurenai Yūhi", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"12", name: "Neji Hyūga", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"13", name: "Tenten", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"14", name: "Rock Lee", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"15", name: "Might Guy", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"16", name: "Ino Yamanaka", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"17", name: "Shikamaru Nara", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"18", name: "Chōji Akimichi", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"19", name: "Asuma Sarutobi", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"20", name: "Time Taka", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"21", name: "Suigetsu Hōzuki", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"22", name: "Karin Uzumaki", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"23", name: "Juugo", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"24", name: "Orochimaru", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"25", name: "Kabuto Yakushi", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"26", name: "Jirōbō", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"27", name: "Kidōmaru", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"28", name: "Sakon e Ukon", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"29", name: "Tayuya", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"30", name: "Kimimaro Kaguya", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"31", name: "Madara Uchiha", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"32", name: "Tobi", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"33", name: "Pain", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"34", name: "Konan", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"35", name: "Zetsu", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"36", name: "Deidara Tsukuri", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"37", name: "Sasori", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"38", name: "Itachi Uchiha", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"39", name: "Kisame Hoshigaki", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"40", name: "Kakuzu", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"41", name: "Hidan", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"42", name: "Konohamaru Sarutobi", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"43", name: "Jiraiya", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"44", name: "Shizune", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"45", name: "Rin Nohara", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"46", name: "Yugao Uzuki", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"47", name: "Anko Mitarashi", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"48", name: "Kushina Uzumaki", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"49", name: "Shisui Uchiha", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"50", name: "Danzou Shimura", descricao: "Não disponivel ainda", geral:"true"},
-  {id:"51", name: "Hashirama Senju", descricao: "Não disponivel ainda", geral:"true"},
+  {id:"10", name: "Shino Aburame", descricao: "Não disponivel ainda", geral:"true"}
 ];
 
 app.get('/geral', function (req, res) {
@@ -186,8 +145,22 @@ app.get('/shinoaburame', function (req, res) {
 
 });
 
+app.get('/shinoaburame', function (req, res) {
+
+  var personagem =  personagens.filter(function(person) {
+    return person.id == "10";
+  });
+
+  res.send(JSON.stringify(personagem));
+
+});
+
 
 
 app.listen(8001, function () {
-  console.log('Servidor rodando na porta 8000.');
+  console.log('--------------------------------------------');
+  console.log('Autor: Gustavo de Oliveira Rosa');
+  console.log('Repositório: https://github.com/GustavoOliveiraRosa/naruto-api');
+  console.log('Abraços do tio Gustavo.');
+  console.log('--------------------------------------------');
 });

@@ -1,6 +1,6 @@
 # HISOKA API NARUTO
 
-Neste repositório, trago o código fonte de uma API Rest, que retornará em seus endpoints dados relacionados ao personagem do anime selecionado.
+Neste repositório, trago o código fonte de uma API Rest, que retornará em seus endpoints dados relacionados ao personagem do anime selecionado, não sendo todos pela infinidade de personagens e a dificuldade no tempo para repopular o mesmo.
 O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de manter afiada minhas habilidades desenvolvendo usando a linguagem NodeJS.
 
 
@@ -8,7 +8,7 @@ O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de
 
 **04/09/2020**
 
-- [ ] Endpoints especificos para cada um dos personagens.
+- [x] Endpoints especificos para cada um dos personagens.
 
 - /narutouzumaki 04/09/2020 [x]
 - /sasukeuchiha 04/09/2020 [x]
@@ -19,6 +19,8 @@ O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de
 - /kibainuzuka 04/09/2020 [x]
 - /akamaru 04/09/2020 [x]
 - /hinatahyuga 04/09/2020 [x]
+- /shinoaburame 04/09/2020 [x]
+- /shinoaburame 04/09/2020 [x]
 
 
 
@@ -26,6 +28,7 @@ O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de
 
 ## Ideias para possiveis atualizacoes 
 
+- [ ] Colocar TODOS os personagens do anime na API.
 - [ ] Armazenar os dados dos personagens em banco de dados.
 - [ ] Adição de imagens também ao banco de dados.
 - [ ] Adicionar a descricao de todos os usuarios.

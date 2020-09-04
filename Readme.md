@@ -8,7 +8,11 @@ O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de
 
 **04/09/2020**
 
-- [x] Endpoints especificos para cada um dos personagens.
+- [ ] Endpoints especificos para cada um dos personagens.
+- /narutouzumaki 04/09/2020 [x]
+- /sasukeuchiha 04/09/2020 [x]
+- /sakuraharuno 04/09/2020 [x]
+- /sakuraharuno 04/09/2020 [x]
 - [x] Endpoint geral para todos os personagens.
 
 ## Ideias para possiveis atualizacoes 

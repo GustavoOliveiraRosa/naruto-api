@@ -9,10 +9,14 @@ O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de
 **04/09/2020**
 
 - [ ] Endpoints especificos para cada um dos personagens.
+
 - /narutouzumaki 04/09/2020 [x]
 - /sasukeuchiha 04/09/2020 [x]
 - /sakuraharuno 04/09/2020 [x]
 - /kakashihatake 04/09/2020 [x]
+
+
+
 - [x] Endpoint geral para todos os personagens.
 
 ## Ideias para possiveis atualizacoes 
@@ -24,7 +28,7 @@ O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de
 
 ## Como usar
 
-- Após clonar o repositório, use o seguinte comando: $ node app.js , e faça suas requisições.
+- Após clonar o repositório, use o seguinte comando: $ npm install && node app.js , e faça suas requisições.
 
 ![](exemplo.gif)
 

@@ -126,6 +126,16 @@ app.get('/kakashihatake', function (req, res) {
 
 });
 
+app.get('/saiyamanaka', function (req, res) {
+
+  var personagem =  personagens.filter(function(person) {
+    return person.id == "5";
+  });
+
+  res.send(JSON.stringify(personagem));
+
+});
+
 
 app.listen(8001, function () {
   console.log('Servidor rodando na porta 8000.');

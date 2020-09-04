@@ -12,7 +12,7 @@ O objetivo deste repositório é ajudar a comunidade a se desenvolver , além de
 - /narutouzumaki 04/09/2020 [x]
 - /sasukeuchiha 04/09/2020 [x]
 - /sakuraharuno 04/09/2020 [x]
-- /sakuraharuno 04/09/2020 [x]
+- /kakashihatake 04/09/2020 [x]
 - [x] Endpoint geral para todos os personagens.
 
 ## Ideias para possiveis atualizacoes 

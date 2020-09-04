@@ -96,6 +96,16 @@ app.get('/narutouzumaki', function (req, res) {
 
 });
 
+app.get('/sasukeuchiha', function (req, res) {
+
+  var personagem =  personagens.filter(function(person) {
+    return person.id == "2";
+  });
+
+  res.send(JSON.stringify(personagem));
+
+});
+
 
 app.listen(8001, function () {
   console.log('Servidor rodando na porta 8000.');

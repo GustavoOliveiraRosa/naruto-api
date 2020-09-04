@@ -146,7 +146,15 @@ app.get('/yamato', function (req, res) {
 
 });
 
+app.get('/kibainuzuka', function (req, res) {
 
+  var personagem =  personagens.filter(function(person) {
+    return person.id == "7";
+  });
+
+  res.send(JSON.stringify(personagem));
+
+});
 
 
 

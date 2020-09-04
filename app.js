@@ -166,6 +166,15 @@ app.get('/akamaru', function (req, res) {
 
 });
 
+app.get('/hinatahyuga', function (req, res) {
+
+  var personagem =  personagens.filter(function(person) {
+    return person.id == "9";
+  });
+
+  res.send(JSON.stringify(personagem));
+
+});
 
 
 app.listen(8001, function () {
